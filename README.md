@@ -1,2 +1,7 @@
 # wildrydes-site
-Aplicação Web simples com tecnologia sem servidor que permite que os usuários solicitem caronas em um unicórnio da frota da Wild Rydes. 
+Aplicação Web simples com tecnologia sem servidor que permite que os usuários solicitem caronas em um unicórnio da frota da Wild Rydes. O aplicativo apresenta uma interface de usuário baseada em HTML para indicar o local onde os usuários gostariam de ser apanhados e interage no back-end com um serviço web RESTful para enviar a solicitação e despachar um unicórnio próximo. O aplicativo também oferece facilidades para que os usuários se cadastrem no serviço e façam login antes de solicitar caronas.
+
+A arquitetura da aplicação usa o AWS Lambda, o Amazon API Gateway, o Amazon DynamoDB, o Amazon Cognito e o console do AWS Amplify. O console do Amplify fornece implantação e hospedagem de recursos Web estáticos, inclusive HTML, CSS, JavaScript e arquivos de imagem que são carregados no navegador do usuário. O JavaScript executado no navegador envia e recebe dados de uma API de back-end pública criada usando o Lambda e o API Gateway. O Amazon Cognito oferece funções de autenticação e gerenciamento de usuários para proteger a API do back-end. Por fim, o Amazon DynamoDB fornece uma camada de persistência onde os dados podem ser armazenados pela função do Lambda da API.
+
+![image](https://user-images.githubusercontent.com/68623425/221295462-7c76d067-1ebe-4c02-b4f0-e64b1cb66f41.png)
+![image](https://user-images.githubusercontent.com/68623425/221295524-65b6712d-9081-4772-b405-f08b7590a302.png)
