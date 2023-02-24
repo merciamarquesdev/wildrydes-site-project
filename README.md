@@ -3,5 +3,5 @@ Aplicação Web simples com tecnologia sem servidor que permite que os usuários
 
 A arquitetura da aplicação usa o AWS Lambda, o Amazon API Gateway, o Amazon DynamoDB, o Amazon Cognito e o console do AWS Amplify. O console do Amplify fornece implantação e hospedagem de recursos Web estáticos, inclusive HTML, CSS, JavaScript e arquivos de imagem que são carregados no navegador do usuário. O JavaScript executado no navegador envia e recebe dados de uma API de back-end pública criada usando o Lambda e o API Gateway. O Amazon Cognito oferece funções de autenticação e gerenciamento de usuários para proteger a API do back-end. Por fim, o Amazon DynamoDB fornece uma camada de persistência onde os dados podem ser armazenados pela função do Lambda da API.
 
-![image](https://user-images.githubusercontent.com/68623425/221295462-7c76d067-1ebe-4c02-b4f0-e64b1cb66f41.png)
+![image](https://user-images.githubusercontent.com/68623425/221295676-054ada90-a105-4a6b-b722-524ad90c0c0d.png)
 ![image](https://user-images.githubusercontent.com/68623425/221295524-65b6712d-9081-4772-b405-f08b7590a302.png)
